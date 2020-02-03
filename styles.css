@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: #FAFFFD;
+}
+
+.title {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.title img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.title h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: white;
+  font-family: "Veranda";
+}
+
+.welcome {
+  background-color: #9AB2A7;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 3%;
+  text-align: center;
+  font-family: "Veranda";
+}
+
+.contentboxes {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: left;
+  margin-top: 2%;
+  font-size: 70%;
+}
+
+.box {
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #FAFFFD;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.furnature-container {
+  background-color: #FFE4E0;
+}
+
+.furnature-container h1 {
+  font-family: "Veranda";
+}
+
+.furnature-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+
+.grid-item {
+  background-color: #B38179;
+  padding: 2%;
+  padding-bottom: 1%;
+  margin: 2% 5% 2% 5%;
+}
+
+.grid-item img {
+  height: 400px;
+  width: auto;
+}
+
+.title {
+  padding: 2%;
+  text-align: center;
+}
+
+.title h2 {
+  font-family: "Veranda";
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.team {
+  margin: 2% 5% 2% 5%;
+  padding: 2%;
+  background-color: #9AB2A7;
+  text-align: center;
+}
+
+.team img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 2%;
+}
+
+.house-page {
+  background-color: #FAFFFD;
+}
+
+.houses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.house-title h2 {
+  font-family: "Veranda";
+  padding: 2%;
+}
+
+.house {
+  background-color: #9AB2A7;
+  margin: 2% 5% 2% 5%;
+}
+
+.house img {
+  width: 30%;
+  height: auto;
+  margin: 2%;
+}
+
+.house ul {
+  padding-left: 3%;
+}
